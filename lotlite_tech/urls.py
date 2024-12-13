@@ -18,4 +18,5 @@ urlpatterns = [
     path('',include('courses_details.urls')),
     path('',include('apply_now_carrer.urls')),
     path('',include('apply_now_carrrer_crm.urls')),
+    path('',include('testApp.urls')),
 ]

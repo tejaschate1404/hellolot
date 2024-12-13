@@ -66,6 +66,7 @@ INSTALLED_APPS = [
     'apply_now_carrer',
     'apply_now_carrrer_crm',
     'django_extensions',
+    'testApp'
     
 ]
 AUTHENTICATION_BACKENDS = [

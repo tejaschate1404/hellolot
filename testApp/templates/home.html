@@ -1,0 +1,16 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Static Files Example</title>
+    <link rel="stylesheet" href="{% static 'css/test.css' %}">
+</head>
+<body>
+    <h1>Welcome to Django Static Files</h1>
+    <p>This is a demonstration of static files in Django.</p>
+    <img src="{% static 'images/csk.jpeg' %}" alt="Logo">
+</body>
+</html>
