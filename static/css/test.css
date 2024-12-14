@@ -4,6 +4,7 @@ body {
     color: #333;
 }
 
-h1 {
-    color: #0056b3;
+.mohit {
+    color: red;
+    font-size: 200px;
 }
